@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dbcab4;
+}
+
+ul,
+li,
+h1 {
+    font-size: 1.2rem;
+    color:#474747;
+}
+
+a {
+    color:#474747;
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(to bottom right, #474747, #474747);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 10px;
+}
+
+.foto {
+    width: 170px;
+    height: 220px;
+    border: 8px groove rgb(97, 97, 97);
+    border-radius: 15px;
+    margin-left: 38px;
+}
+
+.foto14-bis,
+.dirigivel,
+.criança,
+.paris,
+.demoiselle,
+.fim {
+    display: flex;
+    width: 55%;
+    height: 55%;
+    align-items: center;
+    margin: 10px auto;
+    border: 8px groove rgb(97, 97, 97);
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu li {
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.menu a {
+    color: #9c7a4d;
+    font-size: 100px;
+    -webkit-text-stroke: 2px #000;
+}
+
+.curiosidades p {
+    margin: 5px;
+    text-align: justify;
+}
+
+h2,
+h3,
+h4 {
+    color: #9c7a4d;
+    -webkit-text-stroke: 1px #000;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+.linhadotempo h4 {
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 50px;
+}
+.curiosidades h4 {
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+.conteudo,
+.curiosidades {
+    padding: 20px 50px;
+    background-color: #dbcab4;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.conteudo p,
+.curiosidades {
+    text-indent: 15px;
+}
+
+.linhadotempo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.lista {
+    padding: 12px;
+    background-color: #dbcab4;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    text-align: justify;
+    margin: 5px 10px;
+    border: 5px double #000;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 4px 5px #000000af;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.rodape {
+    display: flex;
+    background: linear-gradient(to bottom, #9c7a4d00 0%, #9c7a4d65 100%);
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 1px rgb(44, 44, 44);
+    color: #9c7a4d;
+    text-shadow: 1px -2px 5px #000;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .foto {
+    width: 55%;
+    height: 55%;
+    margin-left: 0;
+    }
+
+    .foto14-bis,
+    .dirigivel,
+    .criança,
+    .paris,
+    .demoiselle,
+    .fim {
+        width: 55%;
+        height: 55%;
+    }
+
+    .menu a {
+        font-size: 50px;
+        -webkit-text-stroke: 1px #000;
+    }
+
+    .menu li {
+        font-size: 8px;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 35px;
+    }
+
+    .conteudo,
+    .curiosidades {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .lista {
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 10px 10px;
+    }
+    .linhadotempo h4{
+        display: flex;
+        gap: 80px;
+        font-size: 30px;
+        text-align: start;
+    }
+    .rodape {
+        font-size: 30px;
+        text-align: center;
+    }
+}
