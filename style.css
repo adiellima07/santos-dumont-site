@@ -6,6 +6,7 @@
 
 body {
     background-color: #dbcab4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ul,
@@ -66,7 +67,6 @@ header {
 
 .menu li {
     font-size: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -86,29 +86,30 @@ h3,
 h4 {
     color: #9c7a4d;
     -webkit-text-stroke: 1px #000;
-    font-family: cursive;
     font-weight: bold;
     text-align: center;
     font-size: 60px;
 }
+
 .linhadotempo h4 {
     font-size: 50px;
     display: flex;
     justify-content: flex-start;
     padding: 10px 50px;
 }
+
 .curiosidades h4 {
     font-size: 50px;
     display: flex;
     justify-content: flex-start;
     padding: 10px 0;
 }
+
 .conteudo,
 .curiosidades {
     padding: 20px 50px;
     background-color: #dbcab4;
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
     text-align: justify;
     width: 100%;
@@ -134,7 +135,6 @@ h4 {
     padding: 12px;
     background-color: #dbcab4;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
     text-align: justify;
     margin: 5px 10px;
@@ -154,7 +154,6 @@ h4 {
     justify-content: center;
     padding: 5px;
     font-size: 55px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     -webkit-text-stroke: 1px rgb(44, 44, 44);
     color: #9c7a4d;
     text-shadow: 1px -2px 5px #000;
@@ -167,9 +166,9 @@ h4 {
     }
 
     .foto {
-    width: 55%;
-    height: 55%;
-    margin-left: 0;
+        width: 55%;
+        height: 55%;
+        margin-left: 0;
     }
 
     .foto14-bis,
@@ -201,7 +200,6 @@ h4 {
     .curiosidades {
         padding: 10px 20px;
         font-size: 16px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: start;
     }
 
@@ -210,18 +208,17 @@ h4 {
         gap: 15px;
         margin: 10px 10px;
         text-align: start;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    .linhadotempo h4{
+
+    .linhadotempo h4 {
         display: flex;
         gap: 80px;
         font-size: 30px;
         text-align: start;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
+
     .rodape {
         font-size: 30px;
         text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }
