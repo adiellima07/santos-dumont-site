@@ -201,21 +201,27 @@ h4 {
     .curiosidades {
         padding: 10px 20px;
         font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: start;
     }
 
     .lista {
         flex-wrap: wrap;
         gap: 15px;
         margin: 10px 10px;
+        text-align: start;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .linhadotempo h4{
         display: flex;
         gap: 80px;
         font-size: 30px;
         text-align: start;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .rodape {
         font-size: 30px;
         text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }
